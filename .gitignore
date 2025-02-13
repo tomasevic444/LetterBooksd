@@ -1,0 +1,27 @@
+# Ignore Visual Studio and ASP.NET build files
+bin/
+obj/
+.vscode/
+*.user
+*.suo
+*.log
+*.vs/
+*.db
+
+# Ignore Environment settings
+.env
+appsettings.json
+appsettings.Development.json
+
+# Ignore Node.js dependencies (for React frontend)
+frontend/node_modules/
+frontend/build/
+
+# Ignore Docker files
+docker-compose.override.yml
+.dockerignore
+
+# Ignore Logs and Temp Files
+logs/
+*.log
+temp/
